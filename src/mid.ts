@@ -58,11 +58,3 @@ export function mid({
 
   return id;
 }
-
-console.log(
-  mid({
-    length: "32",
-    charactersSet: "letters",
-    prefix: "JEFF",
-  })
-);
