@@ -26,9 +26,7 @@
   },
   "homepage": "https://github.com/mart-org/mart-id#readme",
   "devDependencies": {
-    "@types/node": "20.0.0"
-  },
-  "peerDependencies": {
-    "typescript": "5.0.0"
+    "@types/node": "20.0.0",
+    "typescript": "^5.4.5"
   }
 }
