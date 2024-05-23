@@ -5,12 +5,16 @@ export type Prefix =
   | "1230"
   | "JJPV"
   | "0230"
-  | "FLDR"
-  | "IVTY"
+  | "FOLD"
+  | "INVE"
   | "AUTH"
   | "MART"
   | "JEFF"
-  | "PROD";
+  | "PROD"
+  | "OQUE"
+  | "CENT"
+  | "PAUL"
+  | "VALE";
 
 export interface Options {
   prefix?: Prefix;
