@@ -9,15 +9,16 @@ To install Mart ID, use npm or yarn:
 ```bash
 npm i mart-id
 ```
+
 ## Usage
 
 Here's a basic example of how to use Mart ID to generate a unique identifier:
 
 ```typescript
-import { mid } from 'mart-id';
+import { mid } from "mart-id";
 
 const newId = mid();
-console.log('Generated ID:', newId);
+console.log("Generated ID:", newId);
 ```
 
 ## API

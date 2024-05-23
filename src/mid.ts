@@ -76,5 +76,3 @@ export function mid({
 
   return finalId;
 }
-
-console.log(mid({ length: 130, charactersSet: "all" }));
