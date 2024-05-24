@@ -1,10 +1,13 @@
 {
-  "name": "mart-id",
-  "version": "1.4.9",
+  "name": "@mart-dev/id",
+  "version": "1.0.0",
   "description": "A TypeScript library for generating IDs with predefined prefixes and customizable lengths",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepublishOnly": "bun tsc"
   },
