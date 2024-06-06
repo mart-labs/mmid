@@ -1,4 +1,3 @@
-import chalk from "chalk";
 import { charactersAll, charactersLetters, charactersNumbers } from "./data";
 import { Options } from "./models";
 
@@ -28,22 +27,6 @@ export function mid({
   includeChars,
   excludeChars,
 }: Options = {}): string {
-  if (length > 64) {
-    console.warn(
-      chalk.yellow(
-        "The specified length exceeds the maximum allowed length of 64. Setting length to 64."
-      )
-    );
-    length = 64;
-  } else if (length < 4) {
-    console.warn(
-      chalk.yellow(
-        "The specified length is less than the minimum allowed length of 4. Setting length to 4."
-      )
-    );
-    length = 4;
-  }
-
   let characters;
   switch (charactersSet) {
     case "all":

@@ -1,14 +1,14 @@
 {
   "name": "@mart-dev/id",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A TypeScript library for generating IDs with predefined prefixes and customizable lengths",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "type": "commonjs",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
+    "build": "tsc && babel dist --out-dir dist",
     "prepublishOnly": "bun tsc"
   },
   "repository": {
@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/mart-org/mart-id#readme",
   "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
     "@types/node": "20.0.0",
     "typescript": "5.4.5"
-  },
-  "dependencies": {
-    "chalk": "^5.3.0"
   }
 }
