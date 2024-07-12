@@ -1,14 +1,6 @@
-# Mart ID
+# mmid
 
 Generates unique identifiers quickly and easily. Ideal for databases, sessions, and more.
-
-## Installation
-
-To install Mart ID, use npm or yarn:
-
-```bash
-npm i mart-id
-```
 
 ## Usage
 
